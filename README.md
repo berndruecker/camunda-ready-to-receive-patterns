@@ -16,7 +16,9 @@ Checkout and run the Application class which uses Spring Boot to startup Camunda
 * Start process: parallel-process
 
 
-Another approach is to queue the message yourself, using JMS or other means. You can also implement this message buffering using Camunda itself, as shown in this example:
+Another approach is to queue the message yourself, using *JMS* or other means. 
+
+You can also implement this message buffering using Camunda itself, as shown in this example:
 
 ![Example overview](readyToReceiveBuffer.png)
 
