@@ -18,7 +18,7 @@ public class SendResponseAdapter implements JavaDelegate{
     int z = x+y;
     
     cty.getProcessEngineServices().getRuntimeService().startProcessInstanceByKey(
-        "proxy",
+        "ready-to-receive-proxy",
         Variables //
           .putValue("targetCorrelationId", uuid) //
           .putValue("targetMessage", "Message1") //
